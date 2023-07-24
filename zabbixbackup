@@ -1,0 +1,1 @@
+mysqldump --ignore-table=zabbix.history --ignore-table=zabbix.history_uint --ignore-table=zabbix.trends --ignore-table=zabbix.trends_uint -u USERNAME -h localhost -pPASSWORD zabbix | gzip -c > 
